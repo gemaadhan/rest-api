@@ -1,0 +1,12 @@
+<script>
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 && xhr.status == 200 ){
+            let mahasiswa = JSON.parse(this.responseText);
+            console.log(mahasiswa);
+        }
+    }
+
+    xhr.open('GET','https://cdn.statically.io/gh/lakuapik/jadwalsholatorg/master/adzan/semarang/2019/12.json', true);
+    xhr.send();
+</script>

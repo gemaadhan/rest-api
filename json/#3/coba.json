@@ -1,0 +1,31 @@
+[
+    {
+        "nama" : "Gema Nadia Ramadhana",
+        "umur" : 27,
+        "nrp" : "043040023",
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Agung S.T M.T PHd",
+            "pembimbing2" : "Eko didik widianto"
+        }
+    },
+    {
+        "nama" : "Gema Nadia Ramadhana",
+        "umur" : 27,
+        "nrp" : "043040023",
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Agung S.T M.T PHd",
+            "pembimbing2" : "Eko didik widianto"
+        }
+    }
+
+]
