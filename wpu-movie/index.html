@@ -17,14 +17,14 @@
       crossorigin="anonymous"
     />
 
-    <title>WPU HUT</title>
+    <title>WPU MOVIE</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="img/logo.png" width="120" alt="" />
+   WPU MOVIE
         </a>
         <button
           class="navbar-toggler"
@@ -39,19 +39,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home </a>
+            <a class="nav-item nav-link active" href="#">Search Movie</a>
           </div>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div class="row mt-3">
-        <div class="col">
-          <h1>All Menu</h1>
+      <div class="row mt-3 justify-content-center">
+        <div class="col-md-6">
+          <h1 class="text-center">Search Movie</h1>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Movie title.." id="search-input">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row" id="daftar-menu">
+      <div class="row" id="movie-list">
 
 
       </div>
