@@ -1,3 +1,25 @@
+<?php
+
+// untuk menginisiasi fungsi curl nya
+$curl = curl_init();
+
+// untuk ngeset opsinya
+curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/youtube/v3/channels?key=AIzaSyC2BeMyj-3zSxAqfpOVcFD_L866-QSuHd0&part=statistics,snippet&id=UCD07BmGMfiQFno8IubNgjhQ');
+
+// set lagi kalo mau kembaliannya text/json
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+// terakhir eksekusi curl nya
+$result = curl_exec($curl);
+
+// close
+curl_close();
+
+
+$result = json_decode($result, true);
+var_dump($result);
+
+?>
 <!doctype html>
 <html lang="en">
 
